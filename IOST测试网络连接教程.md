@@ -37,9 +37,12 @@
      port: 6379
    
    ```
+6. 启动redis `redis-server` 端口 6379
 
-   
+7. 启动iserver `./build/iserver --config iserver/iserver.yml`
 
-6. 去https://explorer.iost.io/#/applyIOST 领取 iost， 填写 刚才生成的地址（也就是那个公钥）可以领 10个
+8. 去https://explorer.iost.io/#/applyIOST 领取 iost， 填写 刚才生成的地址（也就是那个公钥）可以领 10个
 
-7. 发起交易或者部署合约
+9. 等待区块数据同步完毕
+
+10. 发起交易或者部署合约
